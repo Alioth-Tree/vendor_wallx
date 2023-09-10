@@ -2,11 +2,12 @@ soong_namespace {
 }
 
 android_app_import {
-        name: "wallxAyra",
-        apk: "wallxAyra.apk",
+        name: "wallx",
+        apk: "wallx.apk",
         presigned: true,
         dex_preopt: {
                 enabled: false,
         },
+        privileged: true,
         product_specific: true,
 }

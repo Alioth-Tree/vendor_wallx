@@ -1,6 +1,6 @@
-# GhostIcon
+# wallx
 PRODUCT_SOONG_NAMESPACES += \
-    vendor/wallxAyra
+    vendor/wallx
 
 PRODUCT_PACKAGES += \
-    wallxAyra 
+    wallx
